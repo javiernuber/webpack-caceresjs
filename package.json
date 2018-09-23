@@ -1,0 +1,19 @@
+{
+  "name": "examples-webpack-caceresjs",
+  "version": "1.0.0",
+  "description": "Ejemplos para la charla de 'Webpack desde cero' en CaceresJS",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack  --mode development",
+    "prod": "webpack  --mode production"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "@javiernuber",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^4.19.1",
+    "webpack-cli": "^3.1.1"
+  }
+}
