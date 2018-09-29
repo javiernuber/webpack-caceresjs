@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "dev": "webpack  --mode development",
-    "prod": "webpack  --mode production"
+    "build": "webpack  --mode production",
+    "p1:dev": "webpack --mode development ./p1/src/index.js --output ./p1/dist/main.js",
+    "p1:build": "webpack --mode production ./p1/src/index.js --output ./p1/dist/main.js"
   },
   "keywords": [
     "webpack"
