@@ -6,10 +6,11 @@
   "scripts": {
     "dev": "webpack  --mode development",
     "build": "webpack  --mode production",
-    "test:dev": "webpack --mode development examples/test/src/index.js --output examples/test/dist/main.js",
-    "test:build": "webpack --mode production examples/test/src/index.js --output examples/test/dist/main.js",
+    "com:dev": "webpack --mode development examples/com/src/index.js --output examples/com/dist/main.js",
+    "com:build": "webpack --mode production examples/com/src/index.js --output examples/com/dist/main.js",
     "entry-output:build": "webpack --config examples/entry-output/prod.config.js",
-    "entry-output:dev": "webpack --config examples/entry-output/dev.config.js" 
+    "entry-output:dev": "webpack --config examples/entry-output/dev.config.js",
+    "loader-css-style": "webpack --config examples/loader-css-style/dev.config.js"
   },
   "keywords": [
     "webpack"
@@ -17,6 +18,8 @@
   "author": "@javiernuber",
   "license": "MIT",
   "devDependencies": {
+    "css-loader": "^1.0.0",
+    "style-loader": "^0.23.0",
     "webpack": "^4.19.1",
     "webpack-cli": "^3.1.1"
   }
