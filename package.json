@@ -6,10 +6,10 @@
   "scripts": {
     "dev": "webpack  --mode development",
     "build": "webpack  --mode production",
-    "p1:dev": "webpack --mode development ./p1/src/index.js --output ./p1/dist/main.js",
-    "p1:build": "webpack --mode production ./p1/src/index.js --output ./p1/dist/main.js",
-    "p2:build": "webpack --config p2/prod.config.js",
-    "p2:dev": "webpack --config p2/dev.config.js" 
+    "test:dev": "webpack --mode development examples/test/src/index.js --output examples/test/dist/main.js",
+    "test:build": "webpack --mode production examples/test/src/index.js --output examples/test/dist/main.js",
+    "entry-output:build": "webpack --config examples/entry-output/prod.config.js",
+    "entry-output:dev": "webpack --config examples/entry-output/dev.config.js" 
   },
   "keywords": [
     "webpack"
