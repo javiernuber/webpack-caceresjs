@@ -8,7 +8,8 @@
     "build": "webpack  --mode production",
     "custom": "webpack --mode development examples/custom/src/index.js --output examples/custom/dist/main.js",
     "entry-output": "webpack --config examples/entry-output/dev.config.js",
-    "loader-css-style": "webpack --config examples/loader-css-style/dev.config.js"
+    "loader-css-style": "webpack --config examples/loader-css-style/dev.config.js",
+    "plugin-css-extract": "webpack --config examples/plugin-css-extract/dev.config.js"
   },
   "keywords": [
     "webpack"
@@ -17,6 +18,7 @@
   "license": "MIT",
   "devDependencies": {
     "css-loader": "^1.0.0",
+    "mini-css-extract-plugin": "^0.4.3",
     "style-loader": "^0.23.0",
     "webpack": "^4.19.1",
     "webpack-cli": "^3.1.1"
