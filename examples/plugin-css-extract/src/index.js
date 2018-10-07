@@ -1,3 +1,2 @@
 require('./styles.css');
-document.write('HOLA MUNDO');
-console.log("Loader CSS");
+document.write('Hello World');
