@@ -12,7 +12,8 @@
     "plugin-css-extract": "webpack --config examples/plugin-css-extract/webpack.config.js",
     "multi-entry-points": "webpack --config examples/multi-entry-points/webpack.config.js",
     "webpack-dev-server": "webpack-dev-server --config examples/webpack-dev-server/webpack.config.js",
-    "loader-babel": "webpack --config examples/loader-babel/webpack.config.js"
+    "loader-babel": "webpack --config examples/loader-babel/webpack.config.js",
+    "loader-url-images": "webpack --config examples/loader-url-images/webpack.config.js"
   },
   "keywords": [
     "webpack"
@@ -26,6 +27,7 @@
     "css-loader": "^1.0.0",
     "mini-css-extract-plugin": "^0.4.3",
     "style-loader": "^0.23.0",
+    "url-loader": "^1.1.1",
     "webpack": "^4.19.1",
     "webpack-cli": "^3.1.1",
     "webpack-dev-server": "^3.1.9"
