@@ -11,7 +11,8 @@
     "loader-css-style": "webpack --config examples/loader-css-style/webpack.config.js",
     "plugin-css-extract": "webpack --config examples/plugin-css-extract/webpack.config.js",
     "multi-entry-points": "webpack --config examples/multi-entry-points/webpack.config.js",
-    "webpack-dev-server": "webpack-dev-server --config examples/webpack-dev-server/webpack.config.js"
+    "webpack-dev-server": "webpack-dev-server --config examples/webpack-dev-server/webpack.config.js",
+    "loader-babel": "webpack --config examples/loader-babel/webpack.config.js"
   },
   "keywords": [
     "webpack"
@@ -19,6 +20,9 @@
   "author": "@javiernuber",
   "license": "MIT",
   "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "babel-loader": "^8.0.4",
     "css-loader": "^1.0.0",
     "mini-css-extract-plugin": "^0.4.3",
     "style-loader": "^0.23.0",
