@@ -7,10 +7,10 @@
     "dev": "webpack  --mode development",
     "build": "webpack  --mode production",
     "custom": "webpack --mode development examples/custom/src/index.js --output examples/custom/dist/main.js",
-    "entry-output": "webpack --config examples/entry-output/dev.config.js",
-    "loader-css-style": "webpack --config examples/loader-css-style/dev.config.js",
-    "plugin-css-extract": "webpack --config examples/plugin-css-extract/dev.config.js",
-    "multi-entry-points": "webpack --config examples/multi-entry-points/dev.config.js"
+    "entry-output": "webpack --config examples/entry-output/webpack.config.js",
+    "loader-css-style": "webpack --config examples/loader-css-style/webpack.config.js",
+    "plugin-css-extract": "webpack --config examples/plugin-css-extract/webpack.config.js",
+    "multi-entry-points": "webpack --config examples/multi-entry-points/webpack.config.js"
   },
   "keywords": [
     "webpack"
