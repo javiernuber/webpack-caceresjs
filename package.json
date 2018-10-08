@@ -19,7 +19,8 @@
     "loader-json": "webpack --config examples/loader-json/webpack.config.js",
     "react": "webpack --config examples/react/webpack.config.js",
     "loader-sass": "webpack --config examples/loader-sass/webpack.config.js",
-    "commons-chunk": "webpack --config examples/commons-chunk/webpack.config.js"
+    "commons-chunk": "webpack --config examples/commons-chunk/webpack.config.js",
+    "dynamic-import": "webpack --config examples/dynamic-import/webpack.config.js"
   },
   "keywords": [
     "webpack"
@@ -28,8 +29,11 @@
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.1.2",
+    "@babel/plugin-syntax-dynamic-import": "^7.0.0",
+    "@babel/plugin-transform-runtime": "^7.1.0",
     "@babel/preset-env": "^7.1.0",
     "@babel/preset-react": "^7.0.0",
+    "@babel/runtime": "^7.1.2",
     "babel-loader": "^8.0.4",
     "css-loader": "^1.0.0",
     "file-loader": "^2.0.0",

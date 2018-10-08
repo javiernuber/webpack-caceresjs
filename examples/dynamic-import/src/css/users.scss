@@ -1,0 +1,8 @@
+$borderWith : 3px;
+$padding : $borderWith * 3;
+
+.users {
+  border: $borderWith dashed #222;
+  padding: $padding;
+  background: lightgray;
+}
