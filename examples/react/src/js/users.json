@@ -1,0 +1,16 @@
+{
+  "users": [
+    {
+      "name": "Javier Núñez",
+      "email": "javiernuber@gmail.com"
+    },
+    {
+      "name": "Pedro Martín",
+      "email": "predrom@gmail.com"
+    },
+    {
+      "name": "Daniel Perez",
+      "email": "danip@gmail.com"
+    }
+  ]
+}

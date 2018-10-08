@@ -16,7 +16,8 @@
     "loader-url-images": "webpack --config examples/loader-url-images/webpack.config.js",
     "loader-url-fonts": "webpack --config examples/loader-url-fonts/webpack.config.js",
     "loader-files": "webpack --config examples/loader-files/webpack.config.js",
-    "loader-json": "webpack --config examples/loader-json/webpack.config.js"
+    "loader-json": "webpack --config examples/loader-json/webpack.config.js",
+    "react": "webpack --config examples/react/webpack.config.js"
   },
   "keywords": [
     "webpack"
@@ -26,6 +27,7 @@
   "devDependencies": {
     "@babel/core": "^7.1.2",
     "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.4",
     "css-loader": "^1.0.0",
     "file-loader": "^2.0.0",
@@ -35,5 +37,9 @@
     "webpack": "^4.19.1",
     "webpack-cli": "^3.1.1",
     "webpack-dev-server": "^3.1.9"
+  },
+  "dependencies": {
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
   }
 }
