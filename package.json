@@ -17,7 +17,9 @@
     "loader-url-fonts": "webpack --config examples/loader-url-fonts/webpack.config.js",
     "loader-files": "webpack --config examples/loader-files/webpack.config.js",
     "loader-json": "webpack --config examples/loader-json/webpack.config.js",
-    "react": "webpack --config examples/react/webpack.config.js"
+    "react": "webpack --config examples/react/webpack.config.js",
+    "loader-sass": "webpack --config examples/loader-sass/webpack.config.js",
+    "commons-chunk": "webpack --config examples/commons-chunk/webpack.config.js"
   },
   "keywords": [
     "webpack"
@@ -32,6 +34,8 @@
     "css-loader": "^1.0.0",
     "file-loader": "^2.0.0",
     "mini-css-extract-plugin": "^0.4.3",
+    "node-sass": "^4.9.3",
+    "sass-loader": "^7.1.0",
     "style-loader": "^0.23.0",
     "url-loader": "^1.1.1",
     "webpack": "^4.19.1",
