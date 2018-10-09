@@ -65,7 +65,7 @@ $ npm run loader-sass
 ```
 ### Separación de librerías 
 ``` sh
-$ npm run commons-chun
+$ npm run commons-chunk
 ```
 ### Carga asíncrona 
 ``` sh
